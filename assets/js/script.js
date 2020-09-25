@@ -223,6 +223,7 @@ var dragTaskHandler = function(event) {
 
 };
 
+<<<<<<< HEAD
 var dropZoneDragHandler = function (event) {
 
     var taskListEl = event.target.closest(".task-list");
@@ -259,3 +260,8 @@ pageContentEl.addEventListener("change", taskStatusChangeHandler);
 pageContentEl.addEventListener("dragstart", dragTaskHandler);
 pageContentEl.addEventListener("dragover", dropZoneDragHandler);
 pageContentEl.addEventListener("drop", dropTaskHandler);
+=======
+pageContentEl.addEventListener("click", taskButtonHandler);
+pageContentEl.addEventListener("change", taskStatusChangeHandler);
+pageContentEl.addEventListener("dragstart", dragTaskHandler);
+>>>>>>> 4e9d7b025bffbeb3325fcfb18997cbca8028a37b
